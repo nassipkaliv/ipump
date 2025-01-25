@@ -184,3 +184,94 @@ h1, p {
   bottom: -12%;
   right: 10%;
 }
+
+.about {
+  background: #081e8a;
+  padding: 100px 0;
+}
+
+.section-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 133%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  -webkit-text-stroke: 2px #FF11CB; 
+}
+
+.section-title span {
+  background: linear-gradient(90deg, #fff9cf 0%, #ff0 100%);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 4px #FF11CB; 
+}
+
+.about-container {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.about-container-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.about-container-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+
+.about-container-content {
+  padding: 50px 0;
+}
+
+.why-container {
+  margin-top: 80px;
+}
+
+.why-blocks {
+  display: flex;
+  gap: 32px;
+}
+
+.why-block {
+  border: 3px solid #fff;
+  border-radius: 16px;
+  width: 378px;
+  min-height: 341px;
+  padding: 35px;
+  margin-top: 35px;
+  flex: 1;
+}
+
+.why-block-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.why-block-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
