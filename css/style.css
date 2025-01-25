@@ -277,7 +277,9 @@ h1, p {
 }
 
 .joinus {
-  background: url("../assets/img/joinusbg.png") no-repeat center center/cover;
+  background: url("../assets/img/joinusbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 60px;
   padding-bottom: 100px; 
 }
@@ -447,4 +449,50 @@ h1, p {
   line-height: 150%;
   letter-spacing: 0.05em;
   color: #fff;
+}
+
+.footer {
+  padding: 32px 0;
+  background: #ff0019;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.footer-link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #fff;
+  margin-bottom: 8px;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.footer-center-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  color: #ff0019;
+  text-shadow: 
+    -2px 2px 0 #fff,  
+    2px 2px 0 #fff,   
+    2px -2px 0 #fff,  
+    -2px -2px 0 #fff; 
 }
