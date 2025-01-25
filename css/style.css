@@ -496,3 +496,325 @@ h1, p {
     2px -2px 0 #fff,  
     -2px -2px 0 #fff; 
 }
+
+
+.mob {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+
+  .hero {
+    background: url("../assets/img/mainbgmb.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .redmoon {
+    display: none;
+  }
+  
+  .sputnik {
+    display: none;
+  }
+  
+  .moon {
+    display: none;
+  }
+  
+  .meteor {
+    display: none;
+  }
+  
+  .dale {
+    display: none;
+  }
+  
+  .dalecoin1 {
+    display: none;
+  }
+  
+  .dalecoin2 {
+    display: none;
+  }
+
+  .hero-subtitle {
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    text-align: center;
+    font-family: var(--font-family);
+    -webkit-text-stroke: 1px #FF11CB;
+  }
+
+  .hero-title {
+    font-size: 64px;
+    line-height: 200%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-top: -30px;
+    -webkit-text-stroke: 1px #FF11CB;
+  }
+
+  .hero-container {
+    padding: 0;
+    margin-top: -25%;
+  }
+
+  .hero-text {
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.07em;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 16px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .hero-btn-buy, .hero-btn-chart {
+    width: 326px;
+  }
+
+  .mob {
+    display: block;
+  }
+
+  .dalemb {
+    position: relative;
+  }
+
+  .moonmb {
+    position: absolute;
+    top: 5%;
+    right: 0;
+  }
+
+  .dalecoin1mb {
+    position: absolute;
+    top: 18%;
+  }
+
+  .dalecoin2mb {
+    position: absolute;
+    top: 47%;
+    right: 0;
+  }
+
+  .hero {
+    display: block;
+  }
+
+  .about {
+    padding-top: 35px;
+    padding-bottom: 80px;
+  }
+
+  .section-title {
+    font-size: 40px;
+    line-height: 320%;
+    -webkit-text-stroke: 1px #FF11CB;
+  }
+
+  .section-title span {
+    -webkit-text-stroke: 1px #FF11CB;
+  }
+
+  .about-container {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .ipump-about {
+    order: 2;
+  }
+
+  .about-container-content {
+    padding-top: 0;
+    padding-bottom: 22px;
+  }
+
+  .about-container-title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.07em;    
+  }
+
+  .about-container-text {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-align: center;
+  }
+
+  .why-container {
+    margin-top: 50px;
+  }
+
+  .why-blocks {
+    flex-direction: column;
+  }
+
+  .why-block {
+    width: 100%;
+    min-height: 138px;
+  }
+
+  .why-block-title {
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.07em;
+    margin-bottom: 16px;
+  }
+
+  .why-block-text {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+  }
+
+  .joinus {
+    padding: 40px 0;
+    background-position: center center;
+  }
+
+  .join-text {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-align: center;
+  }
+
+  .join-buttons {
+    margin-top: 30px;
+    flex-direction: column;
+  }
+
+  .join-btn {
+    width: 100%;
+  }
+
+  .tokenomics {
+    padding-top: 40px;
+    padding-bottom: 5px;
+  }
+
+  .token-ca, .token-ca span {
+    font-size: 24px;
+    line-height: 120%;
+  }
+
+  .token-title {
+    margin-bottom: 5px;
+  }
+
+  .token-info {
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+
+  .token-big-block, .token-small-block {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .token-small-block {
+    margin-top: 0;
+  }
+
+  .token-block-title {
+    font-size: 24px;
+  }
+
+  .token-block-text {
+    font-size: 16px;
+  }
+
+  .howtobuy {
+    padding: 30px 0;
+  }
+
+  .howtobuy-text {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 36px;
+  }
+
+  .buy-blocks {
+    flex-direction: column;
+  }
+
+  .buy-block {
+    width: 100%;
+    min-height: 185px;
+    border-radius: 32px;
+  }
+
+  .buy-step, .buy-title {
+    font-size: 24px;
+  }
+
+  .buy-text {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+  }
+  
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    min-height: 470px;
+    justify-content: start;
+  }
+
+  .footer-center {
+    order: 1;
+  }
+
+  .footer-left {
+    order: 2;
+    margin-top: 16px;
+  }
+
+  .footer-right {
+    order: 3;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-center-text {
+    font-size: 64px;
+    line-height: 62%;
+    letter-spacing: 0.03em;
+    text-shadow: -1px 1px 0 0 #fff, 1px 1px 0 0 #fff, 1px -1px 0 0 #fff, -1px -1px 0 0 #fff;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .footer-text {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .footer-link {
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-align: center;
+  }
+}
