@@ -313,3 +313,78 @@ h1, p {
   color: #fff;
   text-decoration: none;
 }
+
+.tokenomics {
+  padding: 80px 0;
+  background: #3e0180;
+}
+
+.token-title {
+  color: #efff15;
+  margin-bottom: 30px; 
+}
+
+.token-ca {
+  border: 4px solid #fff;
+  border-radius: 32px;
+  padding: 20px 36px;
+  background: #ff1115;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0.03em;
+  color: #fff;
+  white-space: nowrap;
+  margin-bottom: 32px;
+}
+
+.token-ca span {
+  font-size: 46px;
+}
+
+.token-info {
+  display: flex;
+  gap: 32px;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.token-big-block {
+  border: 4px solid #fff;
+  border-radius: 32px;
+  padding: 38px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.token-block-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.token-block-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+
+.token-small-block {
+  border: 4px solid #fff;
+  border-radius: 32px;
+  padding: 20px 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 32px;
+}
